@@ -59,16 +59,16 @@
  #main-nav ul li a {
     display: block;
     padding: 10px 0 10px 0;
-    text-align: center;
-    color: #626262;
+    text-align: left;
+    color: #3B3B3B;
  }
  
  #main-nav ul li {
-    border-bottom: 1px solid #efefef;
+    border-bottom: 1px solid #D15F57;
  }
 
  #main-nav ul li:first-child {
-    border-top: 1px solid #efefef;
+    border-top: 1px solid #D15F57;
  }
  
  #main-nav ul li:last-child {
