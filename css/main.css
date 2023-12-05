@@ -167,6 +167,10 @@
   #why-choose-us-nav {
     padding-top: 20px;
  }
+
+ #why-choose-us-nav img {
+   padding-top: 20px;
+}
  
  #why-choose-us-nav ul {
     list-style: none;
