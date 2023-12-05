@@ -7,7 +7,7 @@
  
  body {
     color: #626262;
-    font-family: 'Sanchez', 'Times New Roman', serif;
+    font-family: 'Georgia', 'Times New Roman', serif;
  }
  
  a {
@@ -58,7 +58,7 @@
  
  #main-nav ul li a {
     display: block;
-    padding: 10px 0 10px 0;
+    padding: 15px 0 15px 0;
     text-align: left;
     color: #3B3B3B;
  }
@@ -367,6 +367,7 @@
     background-image: url(../images/footer.jpg);
      background-repeat: no-repeat;
     color: #fff;
+    font-family: 'Sanchez', 'Times New Roman', serif;
     font-size: 12px;
     margin-top: 40px;
     padding-bottom: 80px;
