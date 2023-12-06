@@ -44,7 +44,7 @@
         <section id="hero" class="grid-con">
             <h2 class="hidden">Book a stay with us</h2>                       
             <div id="book-now-hero" class="book-now col-start-3 col-span-2">
-                <p>Book Now</p>
+                <a href="booknow.html"><p class="cr-white">Book Now</p></a>
             </div>
             <section id="hero-heading-box" class="col-span-full">
                 <h2 class="hero-img-h2">
@@ -160,16 +160,30 @@
                 <div class="col-span-full">
                     <h2><span>Couples Resort</span><br>FAQ</h2>
                 </div>
-                <section class="col-span-full faq-items line-separator">
-                    <h3>Check-in/Check-out</h3>
+
+                <section class="col-span-full dropdown-box1">
+                    <input type="checkbox" id="dropdown-01">
+                    <label for="dropdown-01" class="dropdown-background"> 
+                    <img src="images/dropdown-icon.svg" alt="dropdown icon">
+                    <span>Check-in/Check-out</span>
+                    </label>
+
+                    <div class="list-item">
+                        <ul>
+                            <li>Check-in time: 4pm - 5pm</li>
+                            <li>Check-out time: at 11am</li>
+                            <li>Signing a registration upon arrival.</li>
+                        </ul>
+                    </div>
                 </section>
-                <section class="col-span-full faq-items">
+
+                <section class="col-span-full" id="dropdown_icon">
                     <h3>All-Inclusive</h3>
                 </section>
-                <section class="col-span-full faq-items">
+                <section class="col-span-full" id="dropdown_icon">
                     <h3>Dining Hours &amp; Dress Code</h3>
                 </section>
-                <section class="col-span-full faq-items">
+                <section class="col-span-full" id="dropdown_icon">
                     <h3>Amenities In-room</h3>
                     <div id="faq-text-con">
                         <div id="faq-list-group1">
@@ -244,8 +258,9 @@
                 <div id="footer-privacy" class="col-span-full line-separator">
                     <p id="price-policy">All prices and services on this website and in our reservation system are based on conditions at the time of publishing and are subject to change. Please call to confirm services, availability and pricing. ©2013 Couples Resort Inc. All Rights Reserved. Privacy Policy </p>
                 </div>
+            </div>       
         </footer>
-        </div>
+    
         <script src="js/main.js"></script>   
     </body>
 </html>
