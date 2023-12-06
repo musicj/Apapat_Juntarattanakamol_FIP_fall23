@@ -29,9 +29,17 @@
  .cr-red {
     color: #9a2018;
  }
+
+ .cr-white {
+   color: white;
+ }
  
  
  /* 2. ---Main Nav--- */
+
+ #main-nav ul li a:hover {
+    color: #9A2018;
+ }
  
   #main-nav label img {
     width: 20px;
@@ -301,6 +309,100 @@
  #faq-text-con {
     margin-top: 20px;
     margin-bottom: 20px;
+ }
+
+
+ .faq-items {
+    margin-bottom: 16px;
+ }
+ 
+ .faq-items h3 {
+    background: #e8e7e7;
+    padding: 16px;
+    font-size: 16px;
+ }
+ 
+ .faq-items ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+ }
+ 
+ .faq-items li {
+    padding: 8px 0;
+    border-bottom: 1px solid #9a2018;
+ }   
+ 
+ .faq-items a {
+    color: inherit;
+    font-size: 13px;
+ }
+ 
+ #faq-text-con {
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+ /* kwmdmwodow */
+
+
+ .list-item {
+   margin-bottom: 16px;
+}
+
+.list-item h3 {
+   background: #e8e7e7;
+   padding: 16px;
+   font-size: 16px;
+}
+
+.list-item ul {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+
+.list-item li {
+   padding: 8px 0;
+   border-bottom: 1px solid #9a2018;
+   font-size: 12px;
+}   
+
+.list-item a {
+   color: inherit;
+   font-size: 13px;
+}
+
+#faq-text-con {
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+ .dropdown-background {
+   background-color: #9e9b9b;
+   display: flex;
+   padding: 15px;
+   border-radius: 5px;
+ }
+
+ .dropdown-box1 label img {
+   width: 13px;
+   height: auto;
+   margin-right: 10px;
+   cursor: pointer;
+   transition: all .3s ease;
+ }
+
+ .dropdown-box1 input, .list-item {
+   display: none;
+ }
+
+ .dropdown-box1 input:checked ~ .list-item {
+   display: block;
+ }
+ 
+ .dropdown-box1 input:checked ~ label img {
+   transform: rotate(90deg);
  }
  
  #contact-hero-con {
