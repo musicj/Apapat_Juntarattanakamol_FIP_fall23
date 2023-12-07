@@ -244,6 +244,31 @@
     color: #707070;
     font-size: 12px;
  }
+
+ #why-choose-us-bottom-nav {
+   background-color: #CF6666;
+   padding: 10px;
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+
+#why-choose-us-bottom-nav ol {
+   list-style-type: none;
+   margin: 0 0 0 20px;
+}
+
+#why-choose-us-bottom-nav ol li {
+   display: inline;
+}
+
+#why-choose-us-bottom-nav ol li a {
+   padding: 10px;
+   color: #fff;
+}
+
+#why-choose-us-bottom-nav ol li a:hover {
+   color: #7c2626;
+}
  
  #about-hero-con {
     background: url(../images/about-us-hero.jpg) no-repeat;
