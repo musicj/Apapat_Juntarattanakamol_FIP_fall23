@@ -4,15 +4,20 @@
     margin: 20px auto 20px auto;
     border-radius: 10px;
  } 
+ #mobile-outline1 {
+   outline: 20px solid #333;
+   max-width: 412px;
+   margin: 20px auto 20px auto;
+   border-radius: 10px;
+} 
  
  body {
     color: #626262;
-    font-family: 'Sanchez', 'Times New Roman', serif;
+    font-family: 'Georgia', 'Times New Roman', serif;
  }
 
-/* 
- body h2 {
-   font-weight: 400;
+ /* h2 {
+   font-style: normal;
  } */
  
  a {
@@ -92,6 +97,8 @@
     margin-bottom: 20px;
     max-width: 382px;
  }
+
+
  
  
  /* 3. ---Main Hero Image--- */
@@ -99,6 +106,16 @@
  #hero {
     background: url(../images/hero-main.jpg) no-repeat;
     height: 200px;
+ }
+
+ #hero1 {
+   background: url(../images/Dining-mb-01.jpg) no-repeat;
+   height: 200px;
+}
+
+ #hero2 {
+   background: url(../images/Dining-mb-02.jpg) no-repeat;
+   height: 200px;
  }
  
  .book-now {
@@ -142,12 +159,33 @@
     border-top: solid 3px #CF6666;
     padding-top: 30px;
  }
+
+ #hero-summary-section1 {
+   margin-top: 40px;
+ }
+
+ #hero-summary-section2 {
+   margin-top: 40px;
+ }
  
  #hero-summary p {
     font-size: 14px;
     line-height: 22px;
     margin-bottom: 20px;
  }
+
+ .hero-summary-text {
+   font-weight: bold;
+}
+
+.hero-summary-text1 {
+   font-style: italic;
+}
+
+.hero-summary-text2 {
+   font-weight: bold;
+   font-style: italic;
+}
  
  /* 4. ---Main Hero Image Contact--- */
  
@@ -177,6 +215,10 @@
  
  /* 5. ---Why Choose Us--- */
  
+  #why-choose-us {
+    background-color: #ffffff;
+  }
+
   #why-choose-us-nav {
     padding-top: 20px;
  }
@@ -212,6 +254,7 @@
  #why-choose-us-hero-con {
    background: url(../images/why-choose-us-hero.jpg) no-repeat;
    height: 195px;
+   /* padding: 50px; */
  }
  
  #why-choose-us-heading-box {
@@ -296,7 +339,7 @@
  #faq-con {
     background-color: #f4f4f4;
     padding-top: 35px;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
  }
  
  #faq-con h2 {
@@ -376,7 +419,8 @@
 
 
  .list-item {
-   margin-bottom: 16px;
+   margin-top: 25px;
+   margin-bottom: 25px;
 }
 
 .list-item h3 {
@@ -394,12 +438,17 @@
 .list-item li {
    padding: 8px 0;
    border-bottom: 1px solid #9a2018;
-   font-size: 12px;
+   font-size: 15px;
 }   
 
 .list-item a {
    color: inherit;
    font-size: 13px;
+}
+
+.list-item p {
+   margin-top: 10px;
+   font-size: 15px;
 }
 
 #faq-text-con {
@@ -462,9 +511,6 @@
  #contact-hero-address h3 {
     margin-bottom: 25px;
  }
- #contact-hero-address h3 {
-   margin-bottom: 25px;
-}
 
 
 
@@ -520,6 +566,29 @@
    /* color: #D15F57; */
 }
 
+/* #why-choose-us {
+   background-color: #ffffff;
+ }
+
+ #why-choose-us-nav {
+   padding-top: 20px;
+}
+
+#restaurent-nav img {
+  padding-top: 20px;
+} */
+
+#restaurant-pic {
+   background: url(../images/Dining-mb-03.jpg) no-repeat;
+   height: 195px;
+   margin-top: 50px;
+ }
+ 
+ #restaurant-pic-heading-box {
+    align-self: end;
+ }
+
+
  #footer-hero {
     background-image: url(../images/footer.jpg);
     background-repeat: no-repeat;
@@ -549,5 +618,36 @@
     line-height: 18px;
     font-size: 11px;
  }
+
+ #footer-hero1 {
+   font-family: Arial, Helvetica, sans-serif !important;
+   background-image: url(../images/footer-image.png);
+   background-repeat: no-repeat;
+   background-color: #424242;
+   color: #fff;
+   font-size: 12px;
+   padding-bottom: 80px;
+}
+
+#footer-hero1 h3 {
+   margin-top: 30px;
+   font-size: 28px;
+   margin-bottom: 16px;
+}
+
+#footer-privacy1 .line-seperator {
+   margin-top: 0px;
+}
+
+#footer-contact-info1 h3 {
+   font-size: 30px;
+   font-style: normal;
+}
+
+#footer-contact-info1 p {
+   margin-bottom: 20px;
+   line-height: 18px;
+   font-size: 11px;
+}
 
 
