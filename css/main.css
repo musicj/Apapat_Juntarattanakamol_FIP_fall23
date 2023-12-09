@@ -140,8 +140,26 @@
  }
  
  #hero-heading-box {
+   /* background: url(../images/Dining-mb-01.jpg) no-repeat; */
     align-self: end;
+    /* height: 200px; */
  }
+
+ #heading-dropdown-title {
+   z-index: 9999;
+   position: absolute;
+   width: 385px;
+   left: 13px;
+   top: 150px;
+ }
+
+ #heading-dropdown-title span {
+   font-size: 100px;
+ }
+
+ /* #head-dropdown1 {
+   background-image: url(../images/Dining-mb-01.jpg);
+ } */
  
  .hero-img-h2, .hero-img-h3 {
     background: rgb(255, 255, 255);
@@ -158,6 +176,39 @@
     margin-top: 20px;
     border-top: solid 3px #CF6666;
     padding-top: 30px;
+ }
+
+ .line-separator1 {
+   margin-top: 0px;
+   border-top: solid 3px #CF6666;
+   padding-top: 0px;
+}
+
+.line-separator2 {
+   margin-top: 20px;
+   border-top: solid 3px #CF6666;
+   padding-top: 250px;
+}
+
+ #heading-dropdown1 {
+   background: url(../images/hot_stone_mb.jpg);
+   height: 200px;
+   position: absolute;
+   left: 0px;
+ }
+
+ #heading-dropdown2 {
+   background: url(../images/foot_treatment_mb.jpg);
+   height: 200px;
+   position: absolute;
+   left: 0px;
+ }
+
+ #heading-dropdown3 {
+   background: url(../images/scrubs_spa_mb.jpg);
+   height: 200px;
+   position: absolute;
+   left: 0px;
  }
 
  #hero-summary-section1 {
@@ -344,7 +395,7 @@
  
  #faq-con h2 {
     font-size: 24px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
  }
  
  #faq-con h2 span {
@@ -450,6 +501,8 @@
    margin-top: 10px;
    font-size: 15px;
 }
+
+/* .list-item .hero-summary */
 
 #faq-text-con {
    margin-top: 20px;
