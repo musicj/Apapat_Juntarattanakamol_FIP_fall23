@@ -117,6 +117,30 @@
    background: url(../images/Dining-mb-02.jpg) no-repeat;
    height: 200px;
  }
+ #hero3 {
+   background: url(../images/spa_info_mb.jpg) no-repeat;
+   height: 200px;
+}
+
+#hero4 {
+   background: url(../images/Unforeseen-Circumstances.jpg) no-repeat;
+   height: 200px;
+}
+
+#hero5 {
+   background: url(../images/On_Spa_mb.jpg) no-repeat;
+   height: 200px;
+}
+
+#hero6 {
+   background: url(../images/product_mb.jpg) no-repeat;
+   height: 200px;
+}
+
+#hero7 {
+   background: url(../images/spa_mb.jpg) no-repeat;
+   height: 200px;
+}
  
  .book-now {
     background-color: #9a2018;
@@ -145,6 +169,31 @@
     /* height: 200px; */
  }
 
+ #hero-heading-box1 {
+   /* background: url(../images/Dining-mb-01.jpg) no-repeat; */
+    align-self: end;
+    /* height: 200px; */
+ }
+
+ #hero-heading-box2 {
+   /* background: url(../images/Dining-mb-01.jpg) no-repeat; */
+    align-self: end;
+    /* height: 200px; */
+ }
+
+ #hero-heading-box3 {
+   /* background: url(../images/Dining-mb-01.jpg) no-repeat; */
+    align-self: end;
+    /* height: 200px; */
+ }
+
+ #hero-heading-box4 {
+   /* background: url(../images/Dining-mb-01.jpg) no-repeat; */
+    align-self: end;
+    /* height: 200px; */
+ }
+
+
  #heading-dropdown-title {
    z-index: 9999;
    position: absolute;
@@ -157,6 +206,54 @@
    font-size: 100px;
  }
 
+ #heading-dropdown-title1 {
+   z-index: 9999;
+   position: absolute;
+   width: 385px;
+   left: 13px;
+   top: 150px;
+ }
+
+ #heading-dropdown-title1 span {
+   font-size: 100px;
+ }
+
+
+ #heading-dropdown-title2 {
+   z-index: 9999;
+   position: absolute;
+   width: 385px;
+   left: 13px;
+   top: 150px;
+ }
+
+ #heading-dropdown-title2 span {
+   font-size: 100px;
+ }
+
+ #heading-dropdown-title3 {
+   z-index: 9999;
+   position: absolute;
+   width: 385px;
+   left: 13px;
+   top: 150px;
+ }
+
+ #heading-dropdown-title3 span {
+   font-size: 100px;
+ }
+
+ #heading-dropdown-title4 {
+   z-index: 9999;
+   position: absolute;
+   width: 385px;
+   left: 13px;
+   top: 150px;
+ }
+
+ #heading-dropdown-title4 span {
+   font-size: 100px;
+ }
  /* #head-dropdown1 {
    background-image: url(../images/Dining-mb-01.jpg);
  } */
@@ -211,6 +308,20 @@
    left: 0px;
  }
 
+ #heading-dropdown4 {
+   background: url(../images/waxing_spa_mb.jpg);
+   height: 200px;
+   position: absolute;
+   left: 0px;
+ }
+
+ #heading-dropdown5 {
+   background: url(../images/Aligonquin_spa_mb.jpg);
+   height: 200px;
+   position: absolute;
+   left: 0px;
+ }
+
  #hero-summary-section1 {
    margin-top: 40px;
  }
@@ -224,6 +335,72 @@
     line-height: 22px;
     margin-bottom: 20px;
  }
+
+ #hero-summary1 p {
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
+
+#hero-summary2 p {
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
+
+#hero-summary3 p {
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
+
+#hero-summary4 p {
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
+
+#hero-summary5 p {
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
+
+#hero-summary6 p {
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
+
+#hero-summary7 p {
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
+
+#hero-summary8 p {
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
+
+#hero-summary9 p {
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
+
+#hero-summary10 p {
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
+
+#hero-summary11 p {
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
 
  .hero-summary-text {
    font-weight: bold;
@@ -599,7 +776,7 @@
 
 #contact-hero-form input[type="submit"]:hover {
    background-color: #626262;
-   border-radius: 10;
+   border-radius: 10px;
 }
  
 #close-icon img {
