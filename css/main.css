@@ -540,6 +540,7 @@
 #why-choose-us-bottom-nav ol li a:hover {
    color: #7c2626;
 }
+
  
  #about-hero-con {
     background: url(../images/about-us-hero.jpg) no-repeat;
@@ -775,9 +776,17 @@
 }
 
 #contact-hero-form input[type="submit"]:hover {
-   background-color: #626262;
+   background-color: rgb(236, 90, 90);
+   border-radius: 10px;
+   animation: fade 2s linear;
+   cursor: pointer;
    border-radius: 10px;
 }
+
+@keyframes fade {
+   0% {opacity: 0;}
+   50% {opacity: 1;}
+ }
  
 #close-icon img {
    width: 20px;
@@ -820,14 +829,30 @@
 
 
  #footer-hero {
-    background-image: url(../images/footer.jpg);
-    background-repeat: no-repeat;
-    color: #fff;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    margin-top: 40px;
-    padding-bottom: 80px;
+   background-image: url(../images/footer.jpg);
+   background-repeat: no-repeat;
+   background-color: #424242;
+   color: #fff;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   padding-bottom: 80px;
  }
+
+ #footer-hero2 {
+   background-image: url(../images/footer-spa-mb.png);
+   background-repeat: no-repeat;
+   background-color: #424242;
+   color: #fff;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   padding-bottom: 80px;
+}
+
+#footer-hero2 h3 {
+   margin-top: 30px;
+   font-size: 28px;
+   margin-bottom: 16px;
+}
  
  #footer-hero h3 {
     margin-top: 30px;
@@ -850,11 +875,11 @@
  }
 
  #footer-hero1 {
-   font-family: Arial, Helvetica, sans-serif !important;
-   background-image: url(../images/footer-image.png);
+   background-image: url(../images/footer-spa-mb.png);
    background-repeat: no-repeat;
    background-color: #424242;
    color: #fff;
+   font-family:Arial, Helvetica, sans-serif;
    font-size: 12px;
    padding-bottom: 80px;
 }
@@ -879,5 +904,66 @@
    line-height: 18px;
    font-size: 11px;
 }
+/* 
+.checkbox-notify h2 ul {
+   padding: 0;
+   list-style-type: none;
+}
+
+.checkbox-notify h2 ul li {
+   padding: 6px 8px;
+   text-transform: uppercase;
+}
+   */
+
+.checkbox-notify {
+   display: flex;
+   margin-top: 15px;
+   /* margin-left: 10px; */
+}
+
+.checkbox-notify input[type="checkbox"] {
+   margin-right: 10px;
+}
+
+input[type="checkbox"]:checked + span::after {
+   content: "\1F338";
+   width: 25px;
+   height: 25px;
+   border-radius: 50%;
+   font-size: 24px;
+   animation: fadeIn 0.7s;
+}
+
+@keyframes fadeIn {
+   from {opacity: 0;}
+   to {opacity: 1;}
+}
+
+/* input[type="submit"] {
+   display: block;
+   font-family: Verdana,"Rockwell",Helvetica,Serif;
+   font-size: 20px;
+   width: 120px;
+   height: 120px;
+   background: #fff;
+   padding: 10px;
+   border: 0;
+   outline: 0;
+   border-radius: 50%;
+   color: #171717;
+   transition: all 200ms;
+   cursor: pointer;
+ }
+ input[type="submit"]:focus {
+   background: transparent;
+   color: transparent;
+   border: none;
+   border-top: solid 3px #f8a;
+   border-left: solid 3px #fff;
+   animation: bounce 100ms linear infinite;
+ } */
+
+
 
 
